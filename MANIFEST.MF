@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: me.veryobvious.rat.Main
+Class-Path: lib/gson-2.8.6.jar lib/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar lib/jna-5.5.0.jar
